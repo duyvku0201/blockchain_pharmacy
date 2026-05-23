@@ -1,0 +1,24 @@
+{
+  "sepolia": {
+    "chainId": 11155111,
+    "name": "Sepolia (Ethereum testnet)",
+    "publicRpc": "https://ethereum-sepolia-rpc.publicnode.com",
+    "explorer": "https://sepolia.etherscan.io",
+    "deployedAt": "2026-05-21T22:44:48.137Z",
+    "contracts": {
+      "PatientRegistry": {
+        "address": "0x1192Ed11B7476cafB448767E23c8016242F26921",
+        "explorer": "https://sepolia.etherscan.io/address/0x1192Ed11B7476cafB448767E23c8016242F26921#code"
+      },
+      "AccessControl": {
+        "address": "0x15239eBE91b071eB73Ca56E650A96CdcC04a3651",
+        "explorer": "https://sepolia.etherscan.io/address/0x15239eBE91b071eB73Ca56E650A96CdcC04a3651#code"
+      },
+      "EHR": {
+        "address": "0xad3e0b594e5F10d95A7fF56188910b394CfcEa67",
+        "explorer": "https://sepolia.etherscan.io/address/0xad3e0b594e5F10d95A7fF56188910b394CfcEa67#code",
+        "constructorArgs": ["0x15239eBE91b071eB73Ca56E650A96CdcC04a3651"]
+      }
+    }
+  }
+}
